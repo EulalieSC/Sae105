@@ -1,0 +1,45 @@
+[
+  {
+    "titre1": "Cassenoix d'Amérique",
+    "description": "Cette espèce est endémique d'Amérique du Nord. Son aire recouvre principalement les montagnes Rocheuses et les sierras du sud-ouest du Canada et de l'ouest des États-Unis, jusqu'à l'extrême nord du Mexique.",
+    "photo": "img/ClarksNutcracker.jpg"
+    
+  },
+  {
+    "titre1": "Corbin de Stresemann",
+    "description": "Sa présence se limite aux savanes épineuses, aux savanes à herbe courte et aux savanes d'acacias dans le sud de l'Éthiopie.",
+    "photo": "img/Zavattariornis_stresemanni_1629731.jpg"
+  },
+  {
+    "titre1": "Pie-bleue à calotte noire",
+    "description": "La Corneille noire est une espèce commune, présente dans tous les milieux ouverts et semi-ouverts, du niveau de la mer à l'étage alpin. Elle affectionne les espaces agricoles, quels que soient l'assolement et le mode de gestion.",
+    "photo": "img/Cyanopica_cyanus.jpg"
+  },
+  {
+    "titre1": "Corneille noire",
+    "description": "La Corneille noire se trouve dans tous types d'habitats, à l'exception de la haute montagne dont les massifs forestiers compacts ne lui sont pas favorables : elle ne dépasse guère 1000 m d'altitude.",
+    "photo": "img/Corvus_corone_Bob_feeding_Charlie_JdP_20240609.jpg"
+  },
+  {
+    "titre1": "Crave à bec rouge",
+    "description": "Il vit principalement en Eurasie : au nord, on le trouve jusque dans les îles Britanniques, notamment en Irlande, en Grande-Bretagne et sur l'île de Man, mais aussi jusque sur les côtes bretonnes.",
+    "photo": "img/Pyrrhocorax_pyrrhocorax_-standing-8.jpg"
+  },
+  {
+    "titre1": "Grand Corbeau",
+    "description": "Son aire de répartition s’étend dans tout l'Holarctique, de l’Arctique et des habitats tempérés de l'Amérique du Nord et de l’Europe, jusqu’aux déserts de l'Afrique du nord, et aux îles du Pacifique.",
+    "photo": "img/Corvus_corax_(Common_Raven),_Yosemite_NP,_CA,_US_-_Diliff.jpg"
+  },
+  {
+    "titre1": "Pie bavarde",
+    "description": "La pie bavarde, Pica pica, d'origine holarctique est commune dans toute l'Europe mais aussi en Asie, au nord-ouest de l'Afrique et en Amérique du Nord.",
+    "photo": "img/Eurasian_Magpie_2023-10-16_01.jpg"
+  },
+  {
+    "titre1": "Témia temnure",
+    "description": "Cet oiseau vit à Hainan, Vietnam, dans l'est du Laos et le sud de la Thaïlande.",
+    "photo": "img/Temnurus_temnurus.jpg"
+  }
+  
+  
+]

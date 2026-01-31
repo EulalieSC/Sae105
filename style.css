@@ -1,0 +1,321 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 237, 220);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    color: #AF97C7;
+    font-family: "BBH Bartle", sans-serif;
+    margin-inline: auto;
+}
+
+.liste-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-inline: auto;
+}
+
+.liste-images p {
+    color: rgb(245, 237, 220);
+}
+
+.liste-images h2 {
+    color: #AF97C7;
+}
+
+/* Chaque carte / section */
+.background {
+    background-color: #50675a;
+    padding: 15px;
+    text-align: center;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(23, 87, 69, 0.2);
+    border-radius: 10px;
+}
+
+.liste-images img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50em;
+}
+
+/* --- POPUP --- */
+.popup img {
+    max-height: 80vh;
+    margin-inline: auto;
+    position: relative;
+    top: -10%;
+    border-radius: 10%;
+}
+
+.popup {
+    background-color: #463730;
+    position: fixed;
+    top: 30px;
+    bottom: 0;
+    left: 5em;
+    right: 0;
+    z-index: 200;
+    height: 95vh;
+    width: 90vw;
+    border-radius: 15px;
+}
+
+.popup h3{
+    color: rgb(245, 237, 220);
+}
+
+.popup p {
+    display: flex;
+    position: relative;
+    top: -5%;
+    left: 30vw;
+    width: 13vw;
+    height: 40px;
+    background-color: rgb(245, 237, 220);
+    border-radius: 20px;
+    padding-inline: 43px;
+    padding-top: 10px;
+    z-index: 900;
+}
+
+.popup p:hover {
+    background-color: #AF97C7;
+    color: rgb(245, 237, 220);
+}
+
+.popup-visible { 
+    display: block; 
+}
+.popup-invisible { 
+    display: none; 
+}
+
+/* --- FOOTER --- */
+footer {
+    align-items: center;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: #463730;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.mentionLegal {
+    width: 80vw;
+    height: auto;
+    background-color: #AF97C7;
+    border-radius: 30px;
+    padding: 15px;
+    margin-inline: auto;
+    display: block;
+    color: #463730;
+}
+
+.mentionLegal p {
+    color: #463730;
+}
+
+.mentionLegal a{
+    color: #463730;
+}
+
+/* --- FORMULAIRE --- */
+.formulaire {
+    background-color: #AF97C7;
+    width: 45vw; 
+    height: auto; 
+    margin-left: auto;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+.formulaire label, .formulaire input, .formulaire textarea {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.formulaire textarea{
+    min-width: 10px;
+}
+
+.formulaire label {
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.formulaire input {
+    width: 45%;
+    height: 30px;
+}
+
+.bouton {
+    width: 100px;
+    color: rgb(245, 237, 220);
+    background-color: #463730;
+    border-radius: 50px;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-inline: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.bouton:hover {
+    background-color: rgb(245, 237, 220);
+    color: #463730;
+    border: #463730 solid 2px;
+}
+
+#titre {
+    background-color: rgb(245, 237, 220);
+    color: #463730;
+    border: 2px solid #463730;
+    border-radius: 15px;
+    width: 45%;
+    height: 30px;
+}
+/* --- CHAMPS AVEC VALIDATION ROUGE/VERT --- */
+
+
+
+#image-label, .formulaire textarea {
+    background-color: rgb(245, 237, 220);
+    color: #463730;
+    border: 2px solid #463730;
+    border-radius: 15px;
+}
+
+#image-label { 
+    width: 80%;    
+}
+
+/* Bordure Rouge si invalide et non vide */
+.formulaire input:required:invalid:not(:placeholder-shown),
+.formulaire textarea:required:invalid:not(:placeholder-shown) {
+    border: 3px solid #5c2003;
+}
+
+/* Bordure Verte si valide et non vide */
+.formulaire input:required:valid:not(:placeholder-shown),
+.formulaire textarea:required:valid:not(:placeholder-shown) {
+    border: 3px solid #1a961a;
+}
+
+/* --- APERCU ET CORRECTION TEXTE --- */
+.form-apercu {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.apercu {
+    width: 25vw;
+    margin-right: auto;
+    color: rgb(245, 237, 220);
+    background-color: #50675a;
+    padding: 15px;
+    text-align: center;
+    height: 600px;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px rgba(23, 87, 69, 0.2);
+    border-radius: 10px;
+}
+
+.apercu img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50em;
+}
+
+.apercu p {
+    color: rgb(245, 237, 220);
+    margin-top: 10px;
+    inline-size: 100%;
+    overflow-wrap: break-word; 
+    word-break: break-all;     
+    text-align: left;
+    padding: 5px;
+    width: 45vw; 
+    height: auto;
+    min-height: 600px;
+}
+
+.apercu h3 {
+    color: #AF97C7;
+    font-family: Impact, sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* --- DIVERS --- */
+p {
+    max-width: 50em;
+    margin-inline: auto;
+    color: #50675a;
+}
+
+body h2 {
+    color: #50675a;
+    font-family: Impact, sans-serif;
+    font-size: 2em;
+    width: 350px;
+}
+
+.star-required {
+    color: #5c2003;
+    font-weight: bold;
+}
+
+.carMax {
+    display: block;
+    position: relative;
+    left: 15%;
+    bottom: 23px;
+}
+fieldset {
+    width: 90%;
+    margin-inline: auto; 
+    display: flex;       
+    justify-content: center; 
+    gap: 5px;           
+    padding: 20px;
+    border: 2px solid #463730; 
+    border-radius: 10px;
+}
+legend{
+    color: #463730;
+    font-size: 1.5em;
+}
+
+.liste-images h3 {
+    color: #AF97C7;
+    font-family: Impact, sans-serif;
+    font-size: 1.5em;
+}
+
+.indication {
+    display: block;
+    position: relative;
+    right: 16%;
+    bottom: 10px;
+}

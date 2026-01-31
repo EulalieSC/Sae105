@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+    <title>SAE 105: Corvidae</title>
+    <link rel="shortcut icon" href="img/LOGO.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1>
+        Corvidae
+    </h1>
+    <p><b>Il ne s'agit pas réelement de ma paission, l'ornithologie est un dommaine qui m'intérresse, c'est plus une
+            curiosité. Les oiseau sont des animaux que souvent on voit mais qu'on ne remarque pas vraiment et
+            aujourd'hui je vous présente l'une des familles d'oiseau les plus connue : <strong>les corvidés</strong>
+        </b><br><br>Les corvidés (Corvidae) constituent une famille de passereaux comprenant 25 genres et 130 espèces de
+        corbeaux, corneilles, pies, témias et geais. C'est dans cette famille que se trouvent les plus gros passereaux.
+        Les corvidés se reconnaissent par leur bec et leurs pattes robustes ainsi qu'à la présence de plumes recouvrant
+        le dessus de leur bec, parfois jusqu'aux narines. Leur plumage est généralement noir avec des nuances de gris et
+        de blanc.</p>
+
+    <h2>Exemple de corvidés :</h2>
+
+    <div class="popup popup-invisible">
+        <h3>image grande taille </h3>
+        <p class="cache-fenetre">fermer</p>
+        <img src="">
+
+    </div>
+
+    <div class="liste-images " role="list"></div>
+
+    <div class="form-apercu">
+        <fieldset>
+            <legend>Sugestion d'autres oiseaux faisant partie de la famille des Corvidés (aperçu à droite du formulaire)
+            </legend>
+            <div class="formulaire">
+                <form>
+
+                    <p>
+                        <label for="titre">Titre de l'image<span class="star-required">*</span></label><br>
+                        <input type="text" name="titre" id="titre" required placeholder="">
+                    </p>
+                    <p>
+
+                        <label for="image-label">URL de l'image<span class="star-required">*</span></label><br>
+                        <small class="indication"><i>commencez par http:// ou https://</i></small>
+                        <input type="url" name="URLimage" id="image-label" required placeholder=" ">
+                    </p>
+
+                    <p>
+                        <label for="description-label">Description<span class="star-required">*</span></label>
+                        <small class="carMax"><i>640 car. max </i></small>
+                        <textarea maxlength="640" rows="10" cols="40" name="descrptionImage" id="description-label"
+                            required placeholder=" "></textarea>
+                        <small><i>Les champs ne sont pas sensibles à la casse.</i></small> <br>
+                        <small><i>* indique un champs obligatoire </i></small>
+                    </p>
+                    <input type="button" value="Soumettre" class="bouton" id="bouton-envoi">
+
+                </form>
+            </div>
+            <div class="apercu">
+                <img id="apercu-image"
+                    src="https://www.nuancierpeinture.fr/assets/img/couleurs-ral/classic/maxi/ral-9010-blanc-pur.png"
+                    alt="image saisie par l'utilisateur">
+                <h3 id="apercu-titre">Titre de l'oiseau</h3>
+                <p id="apercu-description">Description de l'image</p>
+            </div>
+        </fieldset>
+    </div>
+
+    <footer>
+        <div class="mentionLegal">
+            <h4>Mention légal</h4>
+            <p>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie
+                numérique, il est précisé aux utilisateurs du site Nom du site l'identité des différents intervenants
+                dans le cadre de sa réalisation et de son suivi. <br><br>
+
+                Edition du site : <br><br>
+
+                Le présent site, accessible à l'URL <a href="skirlocatanzaro.projetsmmichamps.fr/">skirlocatanzaro.projetsmmichamps.fr/</a>, est édité par: Eulalie,
+                    SKIRLO--CATANZARO, de nationalité Française (France), <b><a
+                        href="eulalie.skirlocatanzaro@gmail.com">
+                        eulalie.skirlocatanzaro@gmail.com</a></p></b>
+
+            Hébergement :<br><br>
+
+            Le Site est hébergé par la société O2Switch,
+            situé 222 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand, (contact téléphonique ou email : (+33)
+            4 44 44 60 40). Directeur de publication Le Directeur de la publication du Site est Eulalie,
+            SKIRLO--CATANZARO. Me contacter Par email: <b><a
+                    href="eulalie.skirlocatanzaro@gmail.com">eulalie.skirlocatanzaro@gmail.com</a></b></p>
+            <p>Les images sont protéger par des licences : <b><a
+                        href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">licences des images</a></b>
+                <small>(novelle fenêtre)</small></p>
+            <p>Les textes sont protéger par des licences : <b><a
+                        href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">licences des
+                        textes</a></b><small>(novelle fenêtre)</small></p>
+
+            <p>Les données saisies (titre, description, URL) sont transmises et hébergée en France. personne responsable du traitement de ces données : Mr. Gambette contact :<a
+                        href="philippe.gambette@univ-eiffel.fr">philippe.gambette@univ-eiffel.fr</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
